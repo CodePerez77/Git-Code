@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.container p {
+  font-size: 1.25rem;
+}
+
+.container .gg {
+  width: 100%;
+}
