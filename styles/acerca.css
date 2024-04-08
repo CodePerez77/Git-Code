@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: rgb(46, 84, 255);
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 1.25rem;
+}
+
+.container li {
+  font-size: 1.25rem;
+}
+
+.container img {
+  width: 100%;
+}
