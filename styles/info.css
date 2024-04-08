@@ -42,3 +42,12 @@ h1 {
 .section-2 img {
   width: 100%;
 }
+
+.container {
+  width: 80%;
+  margin: 3rem auto 0;
+}
+
+.container img {
+  width: 100%;
+}
